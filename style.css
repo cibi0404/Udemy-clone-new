@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  border-bottom: solid black 1px;
+  align-items: center;
+    
+}
+
+.navbar__s1__title{
+    color: #A435F0;
+   
+}
+
+.navbar__s2{
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 60%;
+    align-items: center;
+
+}
+
+.navbar__s2 input{
+    border: none;
+    gap: 10px;
+    width: 100%;
+
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+.hero-text p{
+    padding-top: 10px;
+    
+}
+span{
+    color: #FAC150;
+}
+.hero-btns{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.btn-yellow{
+    background-color: #FAC150;
+    color: black;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.btn-outline-white{
+    border: solid white 1px;
+    color: white;
+    background-color: transparent;
+    border-radius: 6px;
+     padding: 12px 28px;
+     font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.hero-image{
+    width: 320px;
+    min-width: 220px;
+    height: 220px;
+    background: linear-gradient(135deg, #a435f0, #e84393);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    box-shadow: 0 20px 60px rgba(164, 53, 240, 0.4);
+}
+.hero-text p {
+   
+    padding-top: 10px;
+    color: #d1d7dc;       
+    font-size: 0.95rem;
+    line-height: 1.7;
+    max-width: 450px;      
+}
+
+.course{
+    background-color: #F0E6FF;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        padding: 18px 40px;
+    
+}
+.course__title{
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.stat{
+    text-align: center;
+}
+.stat h2 {
+    font-size: 1.6rem;
+    color: #A435F0;       /* purple color for the number */
+    font-weight: 700;
+}
+.stat p {
+    font-size: 0.82rem;
+    color: #6a6f73;       /* grey color for the label */
+    margin-top: 4px;
+}
+.categories{
+    padding: 50px 60px;
+    background-color: #f7f9fa;    /* light grey background */
+    border-top: 1px solid #d1d7dc;
+    border-bottom: 1px solid #d1d7dc;
+}
+.c-top h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.c-top p {
+    font-size: 0.88rem;
+    color: #6a6f73;         /* grey color */
+    margin-top: 4px;
+}
+
+.c-box{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.c-card {
+    background: white;
+    border: 1.5px solid #d1d7dc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.c-card:hover{
+    background-color: #d1d7dc;
+}
+.c-card .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.c-card .lable{
+    font-size: 0.6rem;
+    font-weight: 600px;
+
+}
+.c-card .count {
+    font-size: 0.75rem;
+    color: #6a6f73;
+    margin-top: 4px;
+}
+
+
+.lcourse{
+    padding: 20px 30px;
+}
+
+.lc-box{
+    padding: 20px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.lc-box1{
+    border: solid #d1d7dc 1px;
+    overflow: hidden;
+    border-radius: 9px; 
+}
+
+.lc-thumb{
+
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+.lc-title{
+    font-size: 15px;
+    margin-bottom: 13px;
+    line-height: 1.4;
+}
+.lc-author {
+    font-size: 0.78rem;
+    color: #6a6f73;
+    margin-bottom: 6px;
+}
+.course-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 6px;
+}
+.stars {
+    color: #f4c150;  
+    font-size: 0.8rem;
+}
+
+.rating-num {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #b4690e;  
+}
+
+.rating-count {
+    font-size: 0.75rem;
+    color: #6a6f73;
+}
+
+.course-price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1c1d1f;
+}
+
+.original {
+    text-decoration: line-through;
+   
+    color: #6a6f73;
+    font-size: 0.78rem;
+    font-weight: 400;
+    margin-left: 6px;
+}
+/* mistake 2 fixed — added dot before offer */
+.offer {
+    padding: 30px;
+    background: linear-gradient(90deg, #1c1d1f, #3d1a78);
+    color: white;
+    display: flex;
+    align-items: center;        /* ← centers left and right vertically */
+    justify-content: space-between;  /* ← pushes desc left, price right */
+    gap: 12px;
+    border-radius: 10px;
+    margin: 40px 60px;          /* ← so it doesnt touch screen edges */
+}
+
+.offer-desc {
+    padding-left: 30px;
+}
+
+.offer-desc h2 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.offer-desc p {
+    width: 70%;
+    font-size: 0.9rem;
+    color: #d1d7dc;
+    line-height: 1.6;
+    /* mistake 3 fixed — removed line-through from here */
+}
+
+.offer-price {
+    text-align: center;
+    padding-right: 30px;
+}
+
+.offer-price h2 {
+    color: #FAC150;
+    font-size: 2.5rem;          
+}
+
+
+.offer-original {
+    display: flex;              /* ← puts both in one row */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.original-text {
+    font-size: 0.85rem;
+    color: #d1d7dc;
+}
+
+
+.original-cut {
+    font-size: 0.85rem;
+    color: #d1d7dc;
+    text-decoration: line-through; 
+}
+
+.btn {
+    background-color: white;
+    color: #1c1d1f;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.btn:hover {
+    background-color: #FAC150;  
+}
